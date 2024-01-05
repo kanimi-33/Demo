@@ -19,6 +19,7 @@ const App = () => {
         <form onSubmit={submitHandler}>
           <input type='text' name='username' value={username} onChange={changeHandler} /><br />
           <input type='password' name='password' value={password} onChange={changeHandler} /><br />
+          <input type='text' name='username' value={username} onChange={changeHandler} /><br />
           <input type='submit' name='submit' />
         </form>
       </center>
